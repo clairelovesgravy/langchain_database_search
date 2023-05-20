@@ -1,7 +1,7 @@
 # README.md
 
 ## query database using natural language powered by Langchain 
-## -An Interface to OpenAI GPT-3.5-turbo & SQL Databases
+An Interface to OpenAI GPT-3.5-turbo & SQL Databases
 
 ### Introduction
 This project provides a way to use OpenAI's GPT-3.5-turbo language model in combination with SQL databases, enabling the powerful and intuitive language processing of OpenAI to interact with databases directly. This is achieved using the `langchain` module which includes classes like `OpenAI`, `SQLDatabase`, and `SQLDatabaseChain`.
