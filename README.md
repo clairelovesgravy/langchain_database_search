@@ -16,6 +16,7 @@ Before starting with this project, ensure you have the following:
 Install necessary packages using pip:
 ```
 pip install openai
+pip install langchain
 pip install mysql-connector-python
 ```
 
