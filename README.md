@@ -21,8 +21,10 @@ pip install mysql-connector-python
 ```
 
 ### Setting Up
-1. **Initialize OpenAI model**: Initialize the OpenAI model using the `OpenAI` class from `langchain` module. It requires an API key that can be retrieved from your OpenAI account.
-
+1. **Initialize OpenAI model**: Initialize the OpenAI model using the `OpenAI` class from `langchain` module. It requires an API key that can be retrieved from your OpenAI account.initialize your openai-api-key in terminal.
+```
+export export OPENAI_API_KEY='your own api key'
+```
 2. **Connect to Database**: Create an instance of the `SQLDatabase` object that connects to the SQLite database or MySQL database using the `from_uri` method.
 
 3. **Create SQLDatabaseChain object**: Create an instance of the `SQLDatabaseChain` object that connects the OpenAI model to the `SQLDatabase`.
