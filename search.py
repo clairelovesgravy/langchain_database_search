@@ -1,5 +1,6 @@
 # Import necessary modules from langchain
 from langchain import OpenAI, SQLDatabase, SQLDatabaseChain
+from langchain.chat_models import ChatOpenAI
 import os
 
 # Initialize the OpenAI model
